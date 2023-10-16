@@ -1,0 +1,169 @@
+*{
+    margin:0;
+  }
+  .bar{
+      position: fixed;
+      width: 100%;
+      background-attachment: fixed;
+      background-color: #3b586f;
+      z-index: 5;
+  
+    }
+    .bar ul li{
+      position:relative;
+      list-style:none;
+      background-attachment: fixed;
+      display: inline-block;
+      cursor: pointer;
+      z-index: 9;
+    }
+    .open{
+      position: relative;
+      z-index: 10;
+      background-color: transparent;
+      left: 0;
+      top: -10px;
+  }
+    .navlogo{
+      position: relative;
+      padding-bottom: 10px;
+      width: 190px;
+      max-width: 100%;
+      top: 10px;
+      height: auto;
+  }
+  .profile{
+    position: relative;
+    padding: 0 0 15px 85rem;
+    width: 50px;
+    max-width: 100%;
+    top: 10px;
+    height: auto;
+  }
+  .name{
+    position: relative;
+    padding-left: 10px;
+    top: -20px;
+    font-size: larger;
+    color: white;
+  }
+  
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    overflow-y: hidden;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 20px 40px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .cover-photo{
+    position: absolute;
+    background-color: #818181;
+    height: 30%;
+    width: 100%;
+    top: 6%;
+    z-index: -1;
+  }
+  .blue{
+    position: absolute;
+    background-color:#3b586f;
+    height: 20%;
+    width: 100%;
+    top: 35%;
+    z-index: -1;
+  }
+  .logo{
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    right: 5%;
+    top: 29%;
+  }
+.div4{
+    position:absolute;
+    left:2.5%;
+    top:21.25%;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+.div6{
+    position:absolute;
+    top: 35.5%;
+    left:16.25%;
+    color:black;
+    font-size:50px;
+    font-weight:1000;
+}
+.div7{
+    background-color:#FFFFFF;
+    position:absolute;
+    top:0%;
+    width:100%;
+    height:8.75%;
+}
+.div8{
+    position:absolute;
+    top:-9.5%;
+    left:-2.5%;
+}
+.div9{
+    position:absolute;
+    top:2.25%;
+    left:15%;
+    color:white;
+    font-size:25px;
+    font-weight:1000;
+}
+.div10{
+    position:absolute;
+    top:-9.5%;
+    right:-2.5%;
+}
+.div11{
+    position:absolute;
+    top:-9.5%;
+    right:3.5%;
+}
+.div12{
+    position:absolute;
+    top:-9.5%;
+    right:9.5%;
+}
+.div13{
+    position:absolute;
+    top:-9.5%;
+    right:20%;
+}
